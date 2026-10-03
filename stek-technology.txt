@@ -1,0 +1,13 @@
+NLP / чат-бот	                Google Dialogflow CX	          Распознавание намерений, сущностей, управление диалогом
+Основной язык	                TypeScript	                    Один язык для frontend и backend
+Backend / Webhook	            Node.js + Express	              Обработка запросов Dialogflow и работа с данными
+Frontend	                    React + Vite	                  Демонстрационная страница научного портала
+Интерфейс чата	              Dialogflow CX Messenger	        Готовый чат-виджет, встроенный в страницу
+Хранилище	                    SQLite	                        Простая локальная БД без отдельного сервера
+API	                          REST API + JSON	                Связь frontend/backend и обработка данных
+Тестирование	                Vitest + Supertest	            Unit/API-тесты backend
+Линтинг	                      ESLint + Prettier	              Проверка и единый стиль кода
+Контейнеризация	              Docker + Docker Compose	        Быстрый запуск проекта
+CI/CD	                        GitHub Actions	                lint → tests → build
+Репозиторий	                  Git + GitHub	                  Хранение проекта и история разработки
+Развёртывание webhook	        Google Cloud Run                Публичный HTTPS-адрес для Dialogflow
